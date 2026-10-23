@@ -11,6 +11,7 @@ Everything below runs, is tested, and is documented in English.
 
 | Project | What it is |
 |---|---|
+| **[myserver-os](https://github.com/mcjkrok/myserver-os)** | Control panel for my own production server on Oracle Cloud: **SSO for every service via nginx `auth_request`**, Docker management, automation engine, auto-resolving incidents, 2FA and a web terminal. |
 | **[ai-platform-starter](https://github.com/mcjkrok/ai-platform-starter)** | A miniature internal AI platform: an LLM gateway with Docker, Kubernetes (kustomize base/overlays), CI/CD and **Prometheus + Grafana** monitoring. |
 | **[nexus](https://github.com/mcjkrok/nexus)** | A fully offline AI assistant on **Ollama** — PySide6 GUI, function calling across 30 tools, semantic memory on ChromaDB, speech in and out. No cloud involved. |
 | **[status-watch](https://github.com/mcjkrok/status-watch)** | Serverless uptime monitor running entirely on **GitHub Actions** cron, publishing a status page to GitHub Pages. Zero infrastructure, zero cost. |
@@ -18,8 +19,8 @@ Everything below runs, is tested, and is documented in English.
 
 ### Working with
 
-`Python` `FastAPI` `Docker` `Kubernetes` `ArgoCD` `GitHub Actions` `Prometheus` `Grafana`
-`Linux` `Git` `Ollama` `OpenAI API` `SQLite` `ChromaDB`
+`Python` `FastAPI` `Linux` `nginx` `systemd` `Docker` `Kubernetes` `ArgoCD` `GitHub Actions` `Prometheus` `Grafana`
+`Oracle Cloud` `Git` `Ollama` `OpenAI API` `SQLite` `ChromaDB`
 
 ### A few things I care about
 
